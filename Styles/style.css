@@ -237,6 +237,52 @@ nav > ul li{
     background-color: #E02C6D;
     border:none;
  }
+ .footer{
+    width:100%;
+    height:300px;
+    background-color:rgb(10, 8, 38);
+    margin-top:100px;
+ }
+ .footer-content{
+    color:#FFFFFF;
+   
+ }
+ .footer-container{
+    max-width:262px;
+    height:139px;
+    margin:0 auto;
+ }
+ .footer-container{
+    height:300px;
+   display:flex;
+   flex-direction: column ;
+   justify-content: center;
+   align-items: center;
+ }
+ .footer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* margin-right:90px; */
+ }
+ .footer-title{
+    max-width:243px;
+    height: 36px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:0px;
+    text-align: center;
+ }
+ .footer-f-des{
+    max-width:262px;
+    height:24px;
+    font-size:0.7rem;
+    font-weight:bold;
+    margin:0px;
+    margin-top:3px;
+    text-align: center;
+ }
 @media screen and (max-width: 576px) {
     .navbar, .banner, .banner-text {
         display:flex;
@@ -317,7 +363,7 @@ nav > ul li{
     margin-bottom:50px;
     text-align: center;
    }
-   .feature-description,{
+   .feature-description{
     text-align: center;
    }
    .feature-btn{
