@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family: "Poppins", sans-serif;
+    background: rgb(255, 255, 255);
 }
 /* Shared Styles */
 .light-font{
@@ -83,6 +84,34 @@ nav > ul li{
     justify-content: space-between;
 
 }
+/* .sponsor-list{
+    display:none;
+} */
+ .sponsor-container{
+    display:flex;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+   margin:0 auto;
+   max-width:1110px;
+   height:110px;
+   gap:20px;
+   justify-content: center;
+   align-items: center;
+  justify-items:center ;
+  margin-top:69px;
+ }
+ .sponsor-list img{
+    width:60%;
+    height:60%;
+   
+
+ }
+ .sponsor-list{
+    margin: 0 auto;
+    gap:61px;;
+    height:39px;
+   display:flex;
+   
+ }
 @media screen and (max-width: 576px) {
     .navbar, .banner, .banner-text {
         display:flex;
@@ -90,7 +119,7 @@ nav > ul li{
     }
     .navbar {
         width:100%;
-        margin-right: 0px;;
+        margin-right:0px;
     }
     .banner-image{
         width:100%;
@@ -119,13 +148,55 @@ nav > ul li{
     ul{
         padding:0px;
         justify-items: center;
+        
+        
     }
-    div >button{
-
-    }
+    
    .banner{
     display:flex;
     flex-direction: column-reverse;
     margin-top:0px;
    }
+   .sponsor-container{
+    width:100%;
+    background: #FFFFFF;
+    
+   }
+   .sponsor-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+   }
+   .sponsor-lis img{
+    width:100%;
+    height: 100%;
+   }
 }
+/* @media screen and (min-width: 577px) and (max-width:992px) {
+    .banner-text{
+        display:flex;
+        flex-direction: column;
+        gap:50px;
+        margin-top:20px;
+        justify-content: ;
+    }
+    .navbar{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        overflow-x: ;
+    }
+    .banner-description{
+        margin-bottom:0px;
+    }
+    .banner{
+        display:flex;
+        flex-direction: column;
+        gap:500px;
+    }
+    .banner-image{
+        width:100%;
+        height:100%;
+        
+}
+} */
